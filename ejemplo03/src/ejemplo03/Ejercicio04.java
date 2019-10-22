@@ -2,6 +2,9 @@
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
+ */* To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
 package ejemplo03;
 
@@ -9,7 +12,7 @@ package ejemplo03;
  *
  * @author UTPL
  */
-public class Ejemplo03 {
+public class Ejercicio04 {
 
     /**
      * @param args the command line arguments
@@ -22,11 +25,9 @@ public class Ejemplo03 {
         nombre = "Javier Sanmartin";       
         universidad = "UTPL";
         
-        System.out.println("Mi nombre es"+ nombre);
-        System.out.println("Mi universidad es"+ universidad);
-                
-        System.out.println("Mi nombre es"+ nombre + "\n");
-        System.out.println("Mi universidad es"+ universidad);
+        
+        System.out.print("Mi nombre es " +"\n" +nombre +"\n");
+        System.out.print("Mi universidad es " +"\n" +universidad);
     }
     
 }
